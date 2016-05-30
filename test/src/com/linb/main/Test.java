@@ -47,7 +47,7 @@ public class Test {
     
 
     public static void main(String[] args) throws UnsupportedEncodingException{
-        System.out.println("http://a.app.qq.com/o/simple.jsp?pkgname=com.ucmed.medicinechain".getBytes().length);
+        System.out.println("测试");
     }
     
     public static void test7() {
