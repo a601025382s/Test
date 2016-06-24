@@ -3,7 +3,7 @@ package com.linb.main;
 import com.linb.util.IdHandler;
 
 public class YlptIdHandler {
-    private static String[] ids = {"ukLkHdEZTUNvDHAxeT48vQ","LrXsOG66gi2ABuNQpCTliw"};
+    private static String[] ids = {"oKOapyb3wOejxcf4uGdEeA","gQwBCOU-etQx9hLRS_1pTQ"};
     private static Integer[] ids2 = {19, 20, 21, 27, 28, 31, 42, 43, 44, 45, 46};
     public static void main(String[] args) {
         // 加密
@@ -24,7 +24,7 @@ public class YlptIdHandler {
      * @Description 加密
      */
     public static void encrypt() {
-        String res = IdHandler.idEncrypt(1983);
+        String res = IdHandler.idEncrypt(43);
         System.out.println(res);
     }
     

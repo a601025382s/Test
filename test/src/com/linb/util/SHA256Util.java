@@ -52,7 +52,7 @@ public class SHA256Util {
 	}
 
 	public static void main(String[] args) {
-		System.out.println(SHA256Util.hash("xmx"));
+		System.out.println(SHA256Util.hash("123456"));
 	}
 
 }

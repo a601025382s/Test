@@ -47,7 +47,8 @@ public class Test {
     
 
     public static void main(String[] args) throws UnsupportedEncodingException{
-        System.out.println("测试");
+        JSONObject json = new JSONObject();
+        System.out.println(json.optInt("key"));
     }
     
     public static void test7() {
